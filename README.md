@@ -117,7 +117,7 @@ ai_brain.predict(X_n1_1)
 ```
 ## Dataset Information
 
-Include screenshot of the dataset
+![MyMLData - Sheet1_page-0001](https://github.com/RoopakCS/basic-nn-model/assets/139228922/85ee31ea-a591-4b67-b775-c92ed6c90c19)
 
 ## OUTPUT
 
