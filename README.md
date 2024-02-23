@@ -122,8 +122,8 @@ ai_brain.predict(X_n1_1)
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
+![download](https://github.com/RoopakCS/basic-nn-model/assets/139228922/788b53d8-5f51-4207-823e-11fa0d739258)
 
-Include your plot here
 
 ### Test Data Root Mean Squared Error
 
