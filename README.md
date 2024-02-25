@@ -49,7 +49,7 @@ Evaluate the model with the testing data.
 ### Name: Roopak C S
 ### Register Number: 212223220088
 
-##Importing Modules:
+## Importing Modules:
 ```python
 import pandas as pd
 
@@ -65,7 +65,7 @@ import gspread
 from google.auth import default
 ```
 
-##Authenticate & Create Dataframe using Data in Sheets:
+## Authenticate & Create Dataframe using Data in Sheets:
 ```python
 auth.authenticate_user()
 creds, _ = default()
@@ -81,33 +81,33 @@ dataset1 = dataset1.astype({'Output':'float'})
 dataset1.head()
 ```
 
-##Assigning input column to X and output column to y:
+## Assigning input column to X and output column to y:
 ```python
 X = dataset1[['Input']].values
 y = dataset1[['Output']].values
 ```
 
-##Splitting testing and training data:
+## Splitting testing and training data:
 ```python
 X_train,X_test,y_train,y_test = train_test_split(X,y,test_size = 0.33,random_state = 33)
 ```
 
-##Pre processing:
+## Pre processing:
 ```python
 Scaler = MinMaxScaler()
 ```
 
-##Scaling the input for training:
+## Scaling the input for training:
 ```python
 Scaler.fit(X_train)
 ```
 
-##Transforming the scaled input:
+## Transforming the scaled input:
 ```python
 X_train1 = Scaler.transform(X_train)
 ```
 
-##Creating the model:
+## Creating the model:
 ```python
 ai_brain=Sequential([
     Dense(units = 4, activation = 'relu',input_shape = [1]),
@@ -116,29 +116,29 @@ ai_brain=Sequential([
 ])
 ```
 
-##Compiling the model:
+## Compiling the model:
 ```python
 ai_brain.compile(optimizer='rmsprop',loss='mse')
 ```
 
-##Fitting the model:
+## Fitting the model:
 ```python
 ai_brain.fit(X_train1,y_train,epochs=2000)
 ```
 
-##Plot the loss:
+## Plot the loss:
 ```python
 loss_df = pd.DataFrame(ai_brain.history.history)
 
 loss_df.plot()
 ```
 
-##Transforming the model:
+## Transforming the model:
 ```python
 X_test1 = Scaler.transform(X_test)
 ```
 
-##Evaluate the model and predicting for some value:
+## Evaluate the model and predicting for some value:
 ```python
 ai_brain.evaluate(X_test1,y_test)
 
