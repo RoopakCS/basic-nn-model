@@ -155,17 +155,17 @@ ai_brain.predict(X_n1_1)
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
-![download](https://github.com/RoopakCS/basic-nn-model/assets/139228922/788b53d8-5f51-4207-823e-11fa0d739258)
+![download (1)](https://github.com/RoopakCS/basic-nn-model/assets/139228922/68cbaa5f-f929-45b7-b096-84bcb07ee3f2)
 
 
 ### Test Data Root Mean Squared Error
 
-Find the test data root mean squared error
+![image](https://github.com/RoopakCS/basic-nn-model/assets/139228922/511146ac-e6c0-4b53-a020-f527d3f4b06b)
 
 ### New Sample Data Prediction
 
-Include your sample input and output here
+![Screenshot 2024-02-25 131830](https://github.com/RoopakCS/basic-nn-model/assets/139228922/4372d9a5-8e7f-4a38-980d-1d10e432a5b2)
 
 ## RESULT
 
-Include your result here
+A neural network regression model for the given dataset has been developed Sucessfully.
