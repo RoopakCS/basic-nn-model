@@ -7,12 +7,13 @@ To develop a neural network regression model for the given dataset.
 ## THEORY
 
 A neural network is a computer program inspired by how our brains work. It's used to solve problems by finding patterns in data. Imagine a network of interconnected virtual "neurons." Each neuron takes in information, processes it, and passes it along.
+
 A Neural Network Regression Model is a type of machine learning algorithm that is designed to predict continuous numeric values based on input data. It utilizes layers of interconnected nodes, or neurons, to learn complex patterns in the data. The architecture typically consists of an input layer, one or more hidden layers with activation functions, and an output layer that produces the regression predictions.
 This model can capture intricate relationships within data, making it suitable for tasks such as predicting prices, quantities, or any other continuous numerical outputs.
 
 ## Neural Network Model
 
-![nn (1)](https://github.com/RoopakCS/basic-nn-model/assets/139228922/727d3137-2043-4abc-909f-8c38d1ee9757)
+![image](https://github.com/RoopakCS/basic-nn-model/assets/139228922/ebcf9b27-c04b-4366-b686-7c2eb3c9e940)
 
 ## DESIGN STEPS
 
