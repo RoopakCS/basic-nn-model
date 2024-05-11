@@ -13,7 +13,8 @@ This model can capture intricate relationships within data, making it suitable f
 
 ## Neural Network Model
 
-![image](https://github.com/RoopakCS/basic-nn-model/assets/139228922/ebcf9b27-c04b-4366-b686-7c2eb3c9e940)
+![image](https://github.com/RoopakCS/basic-nn-model/assets/139228922/6736bc2b-f83f-42e3-8196-167c3d072ed3)
+
 
 ## DESIGN STEPS
 
@@ -110,8 +111,8 @@ X_train1 = Scaler.transform(X_train)
 ## Creating the model:
 ```python
 ai_brain=Sequential([
-    Dense(units = 4, activation = 'relu',input_shape = [1]),
-    Dense(units = 3, activation = 'relu'),
+    Dense(units = 6, activation = 'relu', input_shape=[1]),
+    Dense(units = 5, activation = 'relu'),
     Dense(units = 1)
 ])
 ```
